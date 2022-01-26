@@ -20,12 +20,12 @@ public class Tentacle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        howLongAmIOnScreen += 1 * Time.deltaTime;
-        if (howLongAmIOnScreen >= selfDestructionTime)
+        //howLongAmIOnScreen += 1 * Time.deltaTime;
+        /*if (howLongAmIOnScreen >= selfDestructionTime)
         {
             Destroy(gameObject);
             howLongAmIOnScreen = 0;
-        }
+        } */
         if (gmManager.IsGameOver == true)
         {
             Destroy(gameObject);
