@@ -26,6 +26,10 @@ public class Tentacle : MonoBehaviour
             Destroy(gameObject);
             howLongAmIOnScreen = 0;
         }
+        if (gmManager.IsGameOver == true)
+        {
+            Destroy(gameObject);
+        }
     }
     
 
